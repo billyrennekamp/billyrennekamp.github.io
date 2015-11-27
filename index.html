@@ -156,31 +156,31 @@ left: 0%;
 
 
 #seven{
-	background-image:url("Basketball.png");
+	background-image:url("balls/Basketball.png");
 }
 
 #six{
-	background-image:url("Tennis.png");
+	background-image:url("balls/Tennis.png");
 }
 
 #five{
-	background-image:url("Baseball.png");
+	background-image:url("balls/Baseball.png");
 }
 
 #four{
-	background-image:url("Golf.png");
+	background-image:url("balls/Golf.png");
 }
 
 #three{
-	background-image:url("Target.png");
+	background-image:url("balls/Target.png");
 }
 
 #two{
-	background-image:url("8ball.png");
+	background-image:url("balls/8ball.png");
 }
 
 #one{
-	background-image:url("Soccer.png");
+	background-image:url("balls/Soccer.png");
 	height:150%;
 }
 
@@ -256,8 +256,11 @@ $(document).ready(function(){
 		if (/mobile/i.test(navigator.userAgent)) {
 			$("body").html("Sorry doesn't work with mobile : \ ");
 		}
-			$("body").addClass(browser.toLowerCase());
+		$("body").addClass(browser.toLowerCase());
 		
+
+
+
 		var once = false;
 /*		$(window).resize(function(){
 			var w = $(window).width();
