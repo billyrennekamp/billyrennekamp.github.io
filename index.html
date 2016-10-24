@@ -13,6 +13,9 @@ html, body{
 	padding:0;
 	background-color:pink;
 }
+#nope{
+	display:none;
+}
 #container{
  	height: 100%;
     width: 100%;
@@ -154,6 +157,12 @@ left: 0%;
 	}
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 1.1){
+	#nope{display:block;text-align:center; margin: 200px auto;}
+	#container{
+		display:none;
+	}
+}
 
 #seven{
 	background-image:url("balls/Basketball.png");
@@ -254,7 +263,7 @@ $(document).ready(function(){
 			browser = "Opera";
 		}
 		if (/mobile/i.test(navigator.userAgent)) {
-			$("body").html("Sorry doesn't work with mobile : \ ");
+			// $("body").html("Sorry doesn't work with mobile : \ ");
 		}
 		$("body").addClass(browser.toLowerCase());
 		
@@ -323,6 +332,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
+<div id="nope">Sorry This site doens't work on retina screens yet : \</div>
 <div id="container">
 	<div id="content">
 		<div id="one" class="ball"></div>
