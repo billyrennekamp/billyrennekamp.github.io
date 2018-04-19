@@ -1,5 +1,5 @@
-# okwme.github.io
-Hand over Fist for an Eye, 2015
+# Hand over Fist for an Eye
+Billy Rennekamp, 2015
 
 https://okwme.github.io  
 https://datbase.org/okwme/hand-over-fist-for-an-eye  
